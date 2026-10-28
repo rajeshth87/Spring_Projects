@@ -1,0 +1,77 @@
+# ====================================================================
+# Global Multi-Project Gitignore (Folder & Depth Independent)
+# ====================================================================
+
+# --------------------------------------------------------------------
+# 1. Compiled Files & Build Artifacts (Any Folder / Any Depth)
+# --------------------------------------------------------------------
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.nar
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# Node / Frontend Build Outputs (If you add frameworks later)
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/out/
+
+# --------------------------------------------------------------------
+# 2. Runtime Data & Temporary Files
+# --------------------------------------------------------------------
+**/*.log
+**/hs_err_pid*
+**/replay_pid*
+**/*.db
+**/*.sqlite
+
+# --------------------------------------------------------------------
+# 3. Environment Secrets & Local Configurations
+# --------------------------------------------------------------------
+**/.env
+**/.env.local
+**/.env.*.local
+**/local.properties
+**/.spring-boot-devtools.properties
+
+# --------------------------------------------------------------------
+# 4. Integrated Development Environments (IDEs) & Editors
+# --------------------------------------------------------------------
+# IntelliJ IDEA
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/out/production/
+**/out/test/
+
+# Visual Studio Code
+**/.vscode/
+**/.history/
+
+# Eclipse
+**/.metadata/
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+
+# --------------------------------------------------------------------
+# 5. Operating System Junk
+# --------------------------------------------------------------------
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
